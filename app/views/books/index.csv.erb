@@ -1,0 +1,4 @@
+Title, Author, Already Read
+<% @books.each do |book| %>
+  "<%= book.title %>", "<%= book.author %>", "<%= book.already_read %>"
+<% end %>
